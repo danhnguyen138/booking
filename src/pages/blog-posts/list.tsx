@@ -14,7 +14,7 @@ export const BlogPostList = () => {
   const { tableProps } = useTable({
     syncWithLocation: true,
   });
-
+ sadsadsa
   const { data: categoryData, isLoading: categoryIsLoading } = useMany({
     resource: "categories",
     ids:
