@@ -19,7 +19,7 @@ export const BlogPostEdit = () => {
     <Edit saveButtonProps={saveButtonProps} isLoading={formLoading}>
       <Form {...formProps} layout="vertical">
         <Form.Item
-          label={"Title"}
+          label={"Title"} dsadsadas
           name={["title"]}
           rules={[
             {
